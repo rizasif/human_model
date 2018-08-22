@@ -7,20 +7,32 @@
      "length": 0.2, 
      "children": [
       {
-       "HipLeft": {
+       "HipLeft": 
+       {
         "length": 0.085, 
-        "children": [
-         {
-          "KneeLeft": {
+        "children": 
+        [{
+          "KneeLeft": 
+          {
            "length": 0.3, 
-           "children": [
-            {
-             "AnkleLeft": {
+           "children": 
+            [{
+             "AnkleLeft": 
+             {
               "length": 0.5, 
-              "children": [{
-                "FootLeft": {
+              "children": 
+              [{
+                "FootLeft": 
+                {
                  "length": 0.11
-                }}]}}]}}]}}, 
+                }
+              }]
+             }
+            }]
+          }
+        }]
+       }
+      }, 
       {
        "HipRight": {
         "length": 0.085, 
