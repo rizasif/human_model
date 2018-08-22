@@ -9,5 +9,5 @@
      <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node>
      <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
 
-     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find human_model)/rviz/human_model.rviz"  />
+     <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find human_model)/rviz/human_model.rviz"  /> -->
  </launch>
