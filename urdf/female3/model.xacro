@@ -20,7 +20,7 @@
     </xacro:macro>
     
     <xacro:macro name="link_without_geo" params="link">
-		<xacro:link_to_world link="${link}" mesh="Sphere" scale=""/>
+		<xacro:link_to_world link="${link}" mesh="" scale=""/>
     </xacro:macro>  
     
     <xacro:macro name="connector" params="link1 link2 mesh scale">
@@ -38,7 +38,7 @@
     </xacro:macro>
     
      <xacro:macro name="connector_without_geo" params="link1 link2">
-		<xacro:connector link1="${link1}" link2="${link2}" mesh="Sphere" scale="0 0 0"/>
+		<xacro:connector link1="${link1}" link2="${link2}" mesh="" scale="0 0 0"/>
     </xacro:macro>    
 
     <link name="world"/>
