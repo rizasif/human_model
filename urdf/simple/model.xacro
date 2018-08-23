@@ -22,7 +22,7 @@
     </xacro:macro>
     
     <xacro:macro name="link_without_geo" params="link mesh scale">
-		<xacro:link_to_world link="${link}" mesh="${mesh}" scale="${scale}"/>
+		<xacro:link_to_world link="${link}" mesh="" scale="${scale}"/>
     </xacro:macro>  
     
     <xacro:macro name="connector" params="link1 link2 mesh scale">
@@ -40,7 +40,7 @@
     </xacro:macro>
     
      <xacro:macro name="connector_without_geo" params="link1 link2">
-		<xacro:connector link1="${link1}" link2="${link2}" mesh="Hand" scale="0.05 0.04 0.03"/>
+		<xacro:connector link1="${link1}" link2="${link2}" mesh="" scale="0.05 0.04 0.03"/>
     </xacro:macro>    
 	
     <xacro:macro name="link_sphere" params="link r">
@@ -72,7 +72,7 @@
     <xacro:link_sphere link="SpineBase" r="0.0"/>
     <xacro:link_sphere link="SpineMid" r="0.04"/>
     <xacro:link_sphere link="SpineShoulder" r="0.04"/>
-    <xacro:link_without_geo link="ThumbLeft" mesh="Hand" scale="0.05 -0.04 0.03"/>
+    <xacro:link_without_geo link="ThumbLeft" mesh="Hand" scale="0.05 0.04 0.03"/>
     <xacro:link_without_geo link="ThumbRight" mesh="Hand" scale="0.05 -0.04 0.03"/>
     <xacro:link_sphere link="WristLeft" r="0.04"/>
     <xacro:link_sphere link="WristRight" r="0.04"/>
