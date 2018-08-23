@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://playerstage.sourceforge.net/gazebo/xmlschema/#interface" name="primal_human"> 
 
+    <xacro:arg name="model" default="female3"/>
+
 	<xacro:macro name="load_mesh" params="mesh scale">
 		<mesh filename="package://human_model/urdf/$(arg model)/meshes/${mesh}.dae" scale="${scale}"/>
 	</xacro:macro>
